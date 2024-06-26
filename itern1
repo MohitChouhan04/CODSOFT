@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main (){
+    int number=55;
+    int guess=0;
+    while (guess!=number){
+        cout<<" guess (1-100)";
+        cin>>guess;
+
+    if(guess>number){
+        cout<<"guess low !"<<endl;
+
+    }
+    else if(guess<number){
+        cout<<"guess high! "<<endl;
+
+    }
+    else {
+        cout<<"you win";
+    }
+}
+}
